@@ -1,5 +1,5 @@
 module.exports = {
-    charitis: [
+    charities: [
         {
             id: 1,
             title: 'First Charity Project',

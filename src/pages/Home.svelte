@@ -1,0 +1,17 @@
+<script>
+  import CharityList from "../components/CharityList.svelte";
+  import { charities } from "../data/charities";
+  let title = "Charity";
+</script>
+
+<style>
+  h1 {
+    font-size: 3em;
+    color: red;
+  }
+</style>
+
+<div>
+  <h1>{title}</h1>
+  <CharityList {charities} />
+</div>

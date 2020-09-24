@@ -1,8 +1,5 @@
 <script>
-	let title = "Charity";
-	setTimeout(function(){
-		title = "Walid";
-	}, 2000);
+	import Home from "./pages/Home.svelte"
 </script>
 
-<h1>{title}</h1>
+<Home />
